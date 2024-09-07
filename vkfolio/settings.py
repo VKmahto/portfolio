@@ -27,7 +27,11 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['192.168.1.115', 'localhost', '127.0.0.1']
 
+STATIC_URL = '/static/'
 
+STATICFILES_DIRS = [
+    BASE_DIR / "static",  
+]
 
 # Application definition
 
