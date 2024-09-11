@@ -184,7 +184,7 @@
 				var comma_separator_number_step = $.animateNumber.numberStepFactories.separator(',')
 				$('.number').each(function(){
 					var $this = $(this),
-						num = $this.data('-75');
+						num = $this.data('number');
 						console.log(num);
 					$this.animateNumber(
 					  {
